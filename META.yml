@@ -1,0 +1,8 @@
+--- #YAML:1.0
+name: DBIx-Class-FormTools
+version: v0.0.1
+author:
+  - David Jack Olrik <david@olrik.dk>
+abstract: Build forms with multiple interconnected objects.
+license: perl
+generated_by: Module::Build version 0.2611, without YAML.pm
