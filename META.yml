@@ -1,9 +1,21 @@
---- #YAML:1.0
+---
 name: DBIx-Class-FormTools
-version: 0.000003
+version: 0.000004
 author:
-  - David Jack Olrik <david@olrik.dk>
-abstract: Utility module for building forms with multiple
-related L<DBIx::Class> objects.
+  - 'David Jack Olrik <david@olrik.dk>'
+abstract: Utility module for building forms with multiple related L<DBIx::Class> objects.
 license: perl
-generated_by: Module::Build version 0.2611, without YAML.pm
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  DBIx::Class: 0.06002
+  Test::More: 0
+  version: 0.50
+provides:
+  DBIx::Class::FormTools:
+    file: lib/DBIx/Class/FormTools.pm
+    version: 0.000004
+generated_by: Module::Build version 0.28
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

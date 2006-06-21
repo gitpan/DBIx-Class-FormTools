@@ -2,7 +2,6 @@ Build.PL
 Changes
 lib/DBIx/Class/FormTools.pm
 MANIFEST			This list of files
-META.yml
 README
 t/00.load.t
 t/05.fieldname.t
@@ -23,3 +22,5 @@ t/lib/Test.pm
 t/pod-coverage.t
 t/pod.t
 t/sql/sqlite.sql
+t/tmp/test.db
+META.yml
