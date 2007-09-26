@@ -1,6 +1,6 @@
 ---
 name: DBIx-Class-FormTools
-version: 0.000005
+version: 0.000006
 author:
   - 'David Jack Olrik <david@olrik.dk>'
 abstract: Helper module for building forms with multiple related L<DBIx::Class> objects.
@@ -15,8 +15,8 @@ requires:
 provides:
   DBIx::Class::FormTools:
     file: lib/DBIx/Class/FormTools.pm
-    version: 0.000005
-generated_by: Module::Build version 0.2805
+    version: 0.000006
+generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
