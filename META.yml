@@ -1,22 +1,26 @@
 ---
 name: DBIx-Class-FormTools
-version: 0.000006
+version: 0.000007
 author:
   - 'David Jack Olrik <david@olrik.dk>'
 abstract: Helper module for building forms with multiple related L<DBIx::Class> objects.
 license: perl
 resources:
   license: http://dev.perl.org/licenses/
+build_requires:
+  Data::Dump: 0
 requires:
   DBIx::Class: 0.06003
   Moose: 0.11
   Test::More: 0
   version: 0.50
+configure_requires:
+  Module::Build: 0.35
 provides:
   DBIx::Class::FormTools:
     file: lib/DBIx/Class/FormTools.pm
-    version: 0.000006
-generated_by: Module::Build version 0.2808
+    version: 0.000007
+generated_by: Module::Build version 0.35
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
