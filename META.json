@@ -36,7 +36,7 @@
    "provides" : {
       "DBIx::Class::FormTools" : {
          "file" : "lib/DBIx/Class/FormTools.pm",
-         "version" : "0.000008"
+         "version" : "0.000009"
       }
    },
    "release_status" : "stable",
@@ -45,5 +45,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.000008"
+   "version" : "0.000009"
 }
